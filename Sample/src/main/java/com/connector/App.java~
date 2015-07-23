@@ -10,6 +10,5 @@ public class App
     {
         System.out.println( "Hello World");
 	System.out.println("Good Bye");
-	System.out.println("2+3 = 5");
 	}
 }
