@@ -24,3 +24,15 @@
     
     
 </assembly>
+<fileSet>
+<directory>target/connector/dependencies</directory>
+<outputDirectory>lib</outputDirectory>
+</fileSet>
+<fileSet>
+<directory>target/classes</directory>
+<outputDirectory></outputDirectory>
+<excludes>
+    <exclude>**/metrics_module.xml</exclude>
+    <exclude>**/META-INF/*</exclude>
+</excludes>
+</fileSet>
